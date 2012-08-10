@@ -8,5 +8,5 @@ words = string.scan(/\w+/)
 puts "The words are:"
 p words
 puts # prints a empty line
-puts "there are #{words.count} in the string"
-puts 
+puts "there are #{words.count} words in the string"
+puts "there are #{words.uniq.count} unique words in string"

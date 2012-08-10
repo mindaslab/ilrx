@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
-# regexp_character_classes.rb
+# regexp_character_classes_1.rb
 
 string = gets.chop
 puts "The string contains character(s) from a to z"  if /[a-z]/.match string
