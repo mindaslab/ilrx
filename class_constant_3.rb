@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
-# class_constant_2.rb
+# class_constant_3.rb
 
 class Something
 	Const = 25
