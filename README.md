@@ -1,4 +1,4 @@
 I Love Ruby
 ------------
 
-Hello Folks. These are example programs that are in my hobby ruby programing book I Love Ruby, currently hosted here https://www.dropbox.com/s/qqaovgwgca3f2qx/I%20Love%20Ruby%202012%20Beta%203%20.pdf?m
+Hello Folks. These are example programs that are in my hobby ruby programing book I Love Ruby, currently hosted here https://www.dropbox.com/s/y3q4vw9u3daj15r/ilr2012.pdf?m
