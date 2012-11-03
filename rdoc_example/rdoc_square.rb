@@ -1,6 +1,6 @@
 #rdoc_square.rb
 
-# This class Square takes in side_length (of type float or fixnum
+# This class Square takes in side_length (of type float or fixnum)
 # as argument
 class Square
 
