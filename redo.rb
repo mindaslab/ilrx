@@ -1,6 +1,6 @@
 # redo.rb
 
-10.times do |num|
+5.times do |num|
 	puts "num = #{num}"
 	puts "Do you want to redo? (y/n): "
 	option = gets.chop
