@@ -28,7 +28,7 @@ class Square < Rectangle
 	end
 	
 	def side_length=(length)
-		@width = @height = length
+		@width = @length = length
 	end
 end
 

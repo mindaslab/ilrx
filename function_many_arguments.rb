@@ -5,4 +5,5 @@ def print_line char = '_' length = 20
 end
 
 print_line
-print_line 40
+print_line '*'
+print_line '&', 40
