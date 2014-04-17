@@ -11,6 +11,6 @@ t = Thread.new do
 end
 
 t.abort_on_exception = true
-sleep(10)
+sleep(1)
 puts "Program completed"
 
