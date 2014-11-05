@@ -1,0 +1,78 @@
+Gem file and its use
+
+You must have heard of Ruby gems, you must have created it and possibly published it on http://rubygems.org . Now lets see whats the use of Gemfile.
+
+Checkout these files:
+
+The first one is called requester.rb
+
+# requester.rb
+
+require 'rubygems'
+require 'bundler/setup'
+Bundler.require(:default)
+
+resource = RestClient::Resource.new 'http://nothing.com'
+p resource.get
+
+The second one is the Gemfile
+
+source 'https://rubygems.org'
+
+gem 'rest-client'
+
+Put both in the same folder. If you look at requester.rb, it sends a request to  http://nothing.com using the following lines
+
+resource = RestClient::Resource.new 'http://nothing.com'
+p resource.get
+
+and prints it.
+
+Fotr this to take place we need install a gen called rest-client using the command
+
+$ gem install rest-client
+
+and we need to require it requester.rb using the following line
+
+require 'rest-client'
+
+In other words the code must look as shown
+
+require 'rest-client'
+
+resource = RestClient::Resource.new 'http://nothing.com'
+p resource.get
+
+So why we have these three lines
+
+require 'rubygems'
+require 'bundler/setup'
+Bundler.require(:default)
+
+Instead of one? Well let me explain. First this one is a simple project, which requires just one gem, in reality we might need tens of them in real life project. before running the project if we do not have those gems in our system we need to manulaly check if each and every gem esists and install it. This might be simple for few gems, but the truth is if we have lots of gems we are going to hate it.
+
+Welcome to the Ruby way, here is where the Gemfile comes aas saviour. Lets analyze it. Open up the Gemfile, the first line is
+
+source 'https://rubygems.org'
+
+This tells the bundler 9the thing that fetches and install gems) from where the gems must be fetched. Almost all ruby gems end up in http://rubygems.org. there are some bad guys however who like to have proprietary code and don't release it to public. Those suckers keep it for themselves.
+
+Next we just list the gems needed in gem "<gem-name>" one by one. In this case we just have only one gem and so we list it as
+
+gem 'rest-client'
+
+Next in the ruby program that needs those gems we put this piece of code at the top
+
+require 'rubygems'
+require 'bundler/setup'
+Bundler.require(:default)
+
+I do not know what it does exactly but this requires all gems specified in the Gemfile and thus making available readily all gems we need to run the program. Possibly if I learn more in the future I will update this section or most propably not. All you have to do to fetch and install all the gems into the system is this in the terminal
+
+$ bundle install
+
+or in short
+
+$ bundle
+
+Thats it. All the gems in its latest version will get installed in your system and will be availabe for the program that needs it. Enjoy life!
