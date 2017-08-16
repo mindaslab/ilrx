@@ -11,8 +11,7 @@ s2.side_length = 7
 require 'pstore'
 store = PStore.new('my_squares')
 store.transaction do
-	store[:square] ||= Array.new
-	store[:square] << s1
-	store[:square] << s2
+  store[:square] ||= Array.new
+  store[:square] << s1
+  store[:square] << s2
 end
-

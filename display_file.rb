@@ -2,5 +2,5 @@
 # display_file.rb
 
 readlines.each do |line|
-	puts line
+  puts line
 end

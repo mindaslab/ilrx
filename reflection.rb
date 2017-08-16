@@ -1,22 +1,22 @@
 # reflection.rb
 
 class Someclass
-	attr_accessor :a, :b
-	
-	private
-	# A dummy private method
-	def private_method
-	end
-	
-	protected
-	# A dummy protected method
-	def protected_method
-	end
-	
-	public
-	# A dummy public method
-	def public_method
-	end
+  attr_accessor :a, :b
+
+  private
+  # A dummy private method
+  def private_method
+  end
+
+  protected
+  # A dummy protected method
+  def protected_method
+  end
+
+  public
+  # A dummy public method
+  def public_method
+  end
 end
 
 something = Someclass.new

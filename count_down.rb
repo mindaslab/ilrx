@@ -3,7 +3,7 @@
 # Zigor tells about itself
 puts "Hello, I am Zigor...."
 puts "I count down for rockets"
-# Count down starts 
+# Count down starts
 puts 10
 p 9 # p is a short form for puts
 p 8

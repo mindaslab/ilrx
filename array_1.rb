@@ -6,5 +6,5 @@ my_array << 123
 my_array << Time.now
 
 my_array.each do |element|
-puts element
+  puts element
 end

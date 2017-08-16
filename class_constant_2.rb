@@ -2,11 +2,11 @@
 # class_constant_2.rb
 
 class Something
-	Const = 25
-	
-	def Const
-		Const
-	end
+  Const = 25
+
+  def Const
+    Const
+  end
 end
 
 puts Something::Const

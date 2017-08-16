@@ -3,6 +3,5 @@
 # this time its stepping down
 p "Even numbers between 10 and 1:"
 10.step 1, -2 do |i|
-	print "#{i}, "
+  print "#{i}, "
 end
-

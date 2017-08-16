@@ -2,7 +2,7 @@
 # class_constant.rb
 
 class Something
-	Const = 25
+  Const = 25
 end
 
 puts Something::Const

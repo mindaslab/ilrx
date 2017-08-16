@@ -2,4 +2,3 @@
 # rename.rb
 
 File.rename("noname.txt", "somename.txt")
-

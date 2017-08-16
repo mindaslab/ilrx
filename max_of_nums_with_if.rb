@@ -2,7 +2,7 @@
 
 a,b = 3,5
 max = if a > b
-  a
+        a
 else
   b
 end

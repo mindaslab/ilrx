@@ -8,7 +8,7 @@ max = (a >= b)? a : b
 min = (a >= b)? b : a
 
 until max % min == 0
-	max,min = min, max%min
+  max,min = min, max%min
 end
 
 puts "G.C.D = "+min.to_s

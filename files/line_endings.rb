@@ -2,5 +2,5 @@
 # line_endings.rb
 
 File.open("line_endings.txt").each('.') do |line|
-	puts line
+  puts line
 end

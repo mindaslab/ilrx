@@ -13,6 +13,3 @@ s.other = 0
 print "Enter the subject who's mark you want to know: "
 subject = gets.chop
 puts "The mark in #{subject} is #{s.send(subject)}"
-
-
-

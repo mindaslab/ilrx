@@ -1,7 +1,7 @@
 # function_default_argument.rb
 
 def print_line length = 20
-	puts '_'*length
+  puts '_'*length
 end
 
 print_line

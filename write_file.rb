@@ -2,5 +2,4 @@
 # write_file.rb
 
 puts "Hello World!"
-puts "Ruby can write into files" 
-
+puts "Ruby can write into files"

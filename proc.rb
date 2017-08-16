@@ -2,7 +2,7 @@
 # proc.rb
 
 say_hello = Proc.new do
-	puts "Hello world!"
+  puts "Hello world!"
 end
 
 say_hello.call

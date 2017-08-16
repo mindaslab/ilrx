@@ -6,5 +6,5 @@ my_array << 123
 my_array << Time.now
 
 for element in my_array
-	puts element
+  puts element
 end

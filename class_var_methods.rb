@@ -1,17 +1,17 @@
 # class_var_methods.rb
 
 class Robot
-	def initialize
-		if defined?(@@robot_count)
-			@@robot_count += 1
-		else
-			@@robot_count = 1
-		end		
-	end
-	
-	def self.robots_created
-		@@robot_count
-	end
+  def initialize
+    if defined?(@@robot_count)
+      @@robot_count += 1
+    else
+      @@robot_count = 1
+    end
+  end
+
+  def self.robots_created
+    @@robot_count
+  end
 end
 
 r1 = Robot.new

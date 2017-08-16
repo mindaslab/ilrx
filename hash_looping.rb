@@ -6,6 +6,6 @@ mark['Math'] = 70
 mark['Science'] = 75
 total = 0
 mark.each { |key,value|
-	total += value
+  total += value
 }
 puts "Total marks = "+total.to_s

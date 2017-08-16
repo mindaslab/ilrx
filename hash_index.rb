@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
-# hash_index.rb 
+# hash_index.rb
 mark = Hash.new
 mark['English'] = 50
 mark['Math'] = 70

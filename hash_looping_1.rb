@@ -7,5 +7,5 @@ mark['Science'] = 75
 total = 0
 puts "Key => Value"
 mark.each { |a,b|
-	puts "#{a} => #{b}"
+  puts "#{a} => #{b}"
 }

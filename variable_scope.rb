@@ -4,7 +4,7 @@
 x = 5
 
 def print_x
-	puts x
+  puts x
 end
 
 print_x

@@ -1,25 +1,25 @@
 # mixin_2.rb
 
 module Constants
-	Pi = 22.0/7
+  Pi = 22.0/7
 end
 
 class Circle
-	include Constants
-	attr_accessor :radius
-	
-	def area
-		Pi * radius * radius
-	end
+  include Constants
+  attr_accessor :radius
+
+  def area
+    Pi * radius * radius
+  end
 end
 
 class Sphere
-	include Constants
-	attr_accessor :radius
-	
-	def volume
-		(4.0/3) * Pi * radius ** 3
-	end
+  include Constants
+  attr_accessor :radius
+
+  def volume
+    (4.0/3) * Pi * radius ** 3
+  end
 end
 
 c = Circle.new

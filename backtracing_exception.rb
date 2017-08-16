@@ -3,5 +3,5 @@
 begin
   puts 67 / 0
   rescue => e
-  p e.backtrace
+    p e.backtrace
 end

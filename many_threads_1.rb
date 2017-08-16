@@ -17,4 +17,3 @@ threads = []
 end
 
 threads.each {|t| t.join}
-
