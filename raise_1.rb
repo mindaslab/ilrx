@@ -1,4 +1,4 @@
-# raise_1.rb 
+# raise_1.rb
 
 def number_thing(num)
   raise "You did not enter right num" unless (1..10).include? num

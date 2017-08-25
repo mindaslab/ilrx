@@ -3,5 +3,5 @@
 begin
   puts 67 / 0
   rescue ZeroDivisionError
-  puts "Oh nooo! boom thata has cursed us!!!!!"
-end 
+    puts "Oh nooo! boom thata has cursed us!!!!!"
+end

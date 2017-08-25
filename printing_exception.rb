@@ -3,6 +3,6 @@
 begin
   puts 67 / 0
   rescue => e
-  puts "The following exception has occured:"
-  p e
-end 
+    puts "The following exception has occured:"
+    p e
+end

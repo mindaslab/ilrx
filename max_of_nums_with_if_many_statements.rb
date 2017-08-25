@@ -2,8 +2,8 @@
 
 a,b = 3,5
 max = if a > b
-  a+b
-  a
+        a+b
+        a
 else
   a-b
   b

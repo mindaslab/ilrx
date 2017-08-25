@@ -5,4 +5,3 @@ person = Struct.new :name, :age do
 end
 p = person.new "Karthik", 30
 puts p.about_me
-

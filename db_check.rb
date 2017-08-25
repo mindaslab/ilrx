@@ -3,4 +3,3 @@
 
 require 'sqlite3'
 puts "Ruby-Sqlite is OK" if defined?(SQLite3::Database)
-

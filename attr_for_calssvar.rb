@@ -2,15 +2,15 @@
 # this program dosent work
 
 class Robot
-	attr_reader :robot_count
-	
-	def initialize
-		if defined?(@@robot_count)
-			@@robot_count += 1
-		else
-			@@robot_count = 1
-		end		
-	end
+  attr_reader :robot_count
+
+  def initialize
+    if defined?(@@robot_count)
+      @@robot_count += 1
+    else
+      @@robot_count = 1
+    end
+  end
 end
 
 r1 = Robot.new

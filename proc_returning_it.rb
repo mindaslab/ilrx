@@ -3,9 +3,9 @@
 
 # Function that returns a proc
 def return_proc
-	Proc.new do |name|
-		puts "The length of your name is #{name.length}" 
-	end
+  Proc.new do |name|
+    puts "The length of your name is #{name.length}"
+  end
 end
 
 name_length = return_proc

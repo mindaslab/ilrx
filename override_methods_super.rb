@@ -2,20 +2,20 @@
 # override_methods.rb
 
 class A
-	def belongs_to
-		puts "I belong to in class A"
-	end
-	
-	def another_method
-		puts "Just another method in class A"
-	end
+  def belongs_to
+    puts "I belong to in class A"
+  end
+
+  def another_method
+    puts "Just another method in class A"
+  end
 end
 
 class B < A
-	def another_method
-		super
-		puts "Just another method in class B"
-	end
+  def another_method
+    super
+    puts "Just another method in class B"
+  end
 end
 
 

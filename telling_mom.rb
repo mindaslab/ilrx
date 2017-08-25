@@ -8,4 +8,3 @@ loop do
 end
 
 puts "Mom I have finished printing 10"
-

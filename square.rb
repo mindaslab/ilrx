@@ -1,7 +1,7 @@
 #square.rb
 
 class Square
-	attr_accessor :side_length
+  attr_accessor :side_length
 end
 
 s1 = Square.new # creates a new square

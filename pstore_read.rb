@@ -11,7 +11,7 @@ store.transaction do
 end
 
 squares.each do |square|
-	puts "Area = #{square.area}"
-	puts "Perimeter = #{square.perimeter}"
-	puts "==============================="
+  puts "Area = #{square.area}"
+  puts "Perimeter = #{square.perimeter}"
+  puts "==============================="
 end

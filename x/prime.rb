@@ -5,10 +5,10 @@ num = gets
 i = 2
 num = num.to_i
 while num % i !=0
-	i+=1
+  i+=1
 end
 if i == num
-	puts "Prime"
+  puts "Prime"
 else
-	puts "Not prime"
+  puts "Not prime"
 end

@@ -1,9 +1,9 @@
 class Person
-	attr_accessor :name
+  attr_accessor :name
 
-	def speak
-		"Hello I am #{@name}"
-	end
+  def speak
+    "Hello I am #{@name}"
+  end
 end
 
 

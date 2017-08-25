@@ -1,7 +1,7 @@
 # lambda.rb
 
 print_hello = lambda do
-	puts "Hello World!"
+  puts "Hello World!"
 end
 
 print_hello.call

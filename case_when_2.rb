@@ -7,17 +7,17 @@ spell = String.new
 
 spell = case a
   when 1
-	  "one"
+    "one"
   when 2
-	  "two"
+    "two"
   when 3
-	  "three"
+    "three"
   when 4
-	  "four"
+    "four"
   when 5
-	  "five"
+    "five"
   else
-	  spell = nil
+    spell = nil
 end
 
 puts "The number you entered is "+spell if spell

@@ -2,4 +2,3 @@
 # file_copy.rb
 
 puts readlines.join
-

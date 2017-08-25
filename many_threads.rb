@@ -15,4 +15,3 @@ threads << launch_thread("Hi")
 threads << launch_thread("Hello")
 
 threads.each {|t| t.join}
-

@@ -6,13 +6,12 @@ width = 2*h-3
 j=1
 
 (h-1).downto(0) { |i|
-	puts " "*(i) + "#"*j
-	j=j+2
+  puts " "*(i) + "#"*j
+  j=j+2
 }
 
 (1).upto(h-1) { |i|
-	puts " "*i + "#" * width
-	width=width-2
+  puts " "*i + "#" * width
+  width=width-2
 
 }
-	

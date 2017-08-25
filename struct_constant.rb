@@ -6,4 +6,3 @@ p.name = "Karthik"
 p.age = 30
 
 puts "Hello, I am #{p.name}, age #{p.age}"
-

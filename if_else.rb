@@ -2,7 +2,7 @@
 print "Enter your name: "
 name = gets.chop
 if name == "Zigor"
-	puts "#{name} is intelligent"
+  puts "#{name} is intelligent"
 else
-	puts "#{name} is idiot"
+  puts "#{name} is idiot"
 end
