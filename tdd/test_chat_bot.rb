@@ -25,8 +25,6 @@ class TestChatBot < Minitest::Test
     assert_equal name, chat_bot.name
   end
 
-  # One must be able to set its name
-
   # Its greeting must say "Hello I am <name> and my age is <age>.
   # Nice to meet you!"
   def test_greeting_message
